@@ -1,0 +1,34 @@
+div.maintext{
+	text-align: center;
+	font-family: 'Gravity Light';
+	font-size:2vw;
+	margin-top: 5%;
+}
+div.contact{
+	text-align: center;
+	font-family: 'Gravity Regular';
+	font-size:1vw;
+	margin-top: 10%;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+	height: auto;
+	margin-top:5%;
+}
+@font-face {
+	font-family: "Gravity Light";
+	font-display:swap;
+	src: 
+		local('Gravity Light'),
+		url("/fonts/Gravity-Light.otf");
+}
+@font-face {
+	font-family: "Gravity Regular";
+	font-display:swap;
+	src: 
+		local('Gravity Regular'),
+		url("/fonts/Gravity-Regular.otf");
+}
